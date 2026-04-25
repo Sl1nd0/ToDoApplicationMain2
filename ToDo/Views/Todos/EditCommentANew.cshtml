@@ -1,0 +1,110 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ToDo.Models.ListToDosResult;
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<head>
+    <meta charset="utf-8">
+    <title>ToDo</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body onload="setUser()">
+
+
+    <input type="hidden" id="myuser" value="" />
+
+    <div class="row">
+
+        <div class="col-md-4 pb-4"></div>
+
+        <div class="col-md-4 pb-4"></div>
+    </div>
+
+    <div class="card pb-4">
+        <div class="card-header">
+            <center>Edit Comment</center>
+        </div>
+        <div class="row pt-4">
+
+            <div class="col-md-4 pb-4"></div>
+
+            <div class="col-md-4">
+
+
+                <div class="card">
+                    <div class="card-body">
+
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Comment:</label>
+                            <textarea type="text" id="comment" class="form-control" placeholder="">@Model.EditCommentHelperDto.Comment</textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <button type="button" onclick="saveEditCommentNew(@Model.EditCommentHelperDto.CommentID, '@Model.EditCommentHelperDto.Email', '@Model.EditCommentHelperDto.ToDo', '@Model.EditCommentHelperDto.ToDoTitle', '@Model.EditCommentHelperDto.Password', @Model.EditCommentHelperDto.ToDoId, @Model.EditCommentHelperDto.UserID, document.getElementById('comment').value,  '@Model.GetUserRequest.TasksView', @Model.GetUserRequest.ConnectionID, '@Model.GetUserRequest.TaskEmail')" id="create" class="btn btn-warning">Save</button>
+                            <button type="button" id="back" onclick="goBackToCommentNew('@Model.EditCommentHelperDto.Email', '@Model.EditCommentHelperDto.ToDo', '@Model.EditCommentHelperDto.ToDoTitle', '@Model.EditCommentHelperDto.Password', @Model.EditCommentHelperDto.ToDoId, @Model.EditCommentHelperDto.UserID,  '@Model.GetUserRequest.TasksView', @Model.GetUserRequest.ConnectionID, '@Model.GetUserRequest.TaskEmail')" class="btn btn-secondary">
+                                Go Back
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 pb-4"></div>
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+        <br />
+        <br />
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+
+<script src="./js/index.js"></script>
+

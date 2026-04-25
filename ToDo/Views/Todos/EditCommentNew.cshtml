@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+Edit New
+
+@model ToDo.Models.ListToDosResult;
+
+<body onload="setUserName('@Model.GetUserRequest.Email')">
+
+    <p class="card-text" style="color:red" id="error"></p>
+
+    <!--Create a task-->
+    <div class="card pb-4">
+        <div class="card-header">
+            <center>Edit the Task</center>
+        </div>
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <center>
+                    <p class="card-text"></p>
+                    <label for="title">Task title:</label><br>
+                    <input type="text" id="tasktitle" value="@Model.EditUserHelperDto.ToDoTitle" /><br />
+                    <label for="title">Task:</label><br>
+                    <textarea id="task" cols="120" rows="5">@Model.EditUserHelperDto.ToDo</textarea><br />
+                    <div class="row pt-4">
+                        <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                        <div class="col-md-4 pb-4 pl-3 pr-3">
+                            <a onclick="saveChangesEdit('@Model.GetUserRequest.Email', document.getElementById('task').value, document.getElementById('tasktitle').value, @Model.EditUserHelperDto.ToDoID, '@Model.GetUserRequest.Password', @Model.EditUserHelperDto.UserID)" class="btn btn-primary">Save</a>
+                            <a onclick="goBackToMain('@Model.GetUserRequest.Email', '@Model.GetUserRequest.Password' , '@Model.EditUserHelperDto.UserID' )" class="btn btn-secondary">Go Back</a>
+                        </div>
+                        <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--Create a task-->
+
+</body>
+
+<!--
+    <script>
+     
+
+</script> -->
+<!-- In ToDo -->
+<script src="./js/index.js"></script>

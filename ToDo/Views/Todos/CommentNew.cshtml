@@ -1,0 +1,159 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ToDo.Models.ListToDosResult;
+
+
+<body onload="setUserName('@Model.GetUserRequest.Email')">
+
+    <input type="hidden" value="@Model.GetUserRequest.Password" id="token" />
+    <input type="hidden" value="@Model.GetUserRequest.Email" id="email" />
+
+    <p class="card-text" style="color:red" id="error"></p>
+
+    <!--Create a task-->
+    <div class="card pb-4">
+        <div class="card-header">
+            <center>Comment on the Task for @Model.GetUserRequest.TaskEmail</center>
+        </div>
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <h5>&nbsp;&nbsp;&nbsp;  @Model.CommentUserHelperDto.ToDoTitle</h5>
+                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;  @Model.CommentUserHelperDto.ToDo</p>
+
+
+                @foreach (var comment in Model.CommentUserHelperDto.ListCommentsByTodoIdResult)
+                {
+
+                    <b>&nbsp;&nbsp;&nbsp;  @comment.UserName</b>
+                    <p class="card-text">
+                        &nbsp;&nbsp;&nbsp; @comment.Comment &nbsp;
+
+                        @if (@comment.UserID == @Model.CommentUserHelperDto.UserID)
+                        {
+                            @* <a href="#" onclick="editComment('@comment.CommentCleaned', @comment.commentID, '@Model.CommentUserHelperDto.Email' , '@Model.GetUserRequest.Password' , @Model.CommentUserHelperDto.UserID, '@Model.CommentUserHelperDto.ToDo' , @Model.CommentUserHelperDto.ToDoID, '@Model.CommentUserHelperDto.ToDoTitle' )"><u>edit</u></a> *@
+                            <a href="#" onclick="editCommentNew('@comment.CommentCleaned', @comment.commentID, '@Model.CommentUserHelperDto.Email' , '@Model.GetUserRequest.Password' , @Model.CommentUserHelperDto.UserID, '@Model.CommentUserHelperDto.ToDo' , @Model.CommentUserHelperDto.ToDoID, '@Model.CommentUserHelperDto.ToDoTitle', '@Model.GetUserRequest.TaskEmail', @Model.GetUserRequest.ConnectionID)"><u>edit</u></a> <a href="#" onclick="deleteComment(@comment.commentID)"><u>delete</u></a>
+
+                            <br />
+                        }
+
+                        &nbsp;&nbsp;&nbsp @comment.CommentDate
+                    </p>
+                }
+
+                &nbsp;&nbsp;<div class="container"> <textarea id="comment" cols="120" rows="5" style="max-width:100%;"></textarea> </div>
+                <div class="row pt-4">
+                    <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                    <div class="col-md-4 pb-4 pl-3 pr-3">
+
+                        @if (@Model.GetUserRequest.TasksView)
+                        {
+                            <a onclick="addTaskComment('@Model.GetUserRequest.Email', '@Model.GetUserRequest.Password',  '@Model.CommentUserHelperDto.ToDoTitle','@Model.CommentUserHelperDto.ToDo', @Model.GetUserRequest.ToDoID, @Model.GetUserRequest.UserID, @Model.GetUserRequest.ConnectionID, '@Model.GetUserRequest.TaskEmail')" class="btn btn-primary">Comment</a>
+                        }
+
+                        @* <a onclick="goBackToMain('@Model.GetUserRequest.Email', '@Model.GetUserRequest.Password', '@Model.CommentUserHelperDto.UserID')" class="btn btn-secondary">Go Back</a> *@
+                        <a onclick="goBackToTasks('@Model.GetUserRequest.Email', '@Model.GetUserRequest.Password', @Model.GetUserRequest.ConnectionID, @Model.GetUserRequest.UserID, '@Model.GetUserRequest.TaskEmail')" class="btn btn-secondary">Go Back</a>
+                    </div>
+                    <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--Create a task-->
+
+</body>
+
+<!--
+    <script>
+    var myuser = "";
+
+    function setUserName(user) {
+        alert(user);
+        document.getElementById("user").innerHTML = user;
+        myuser = user;
+       // alert(document.getElementById("user").innerHTML);
+       //location.href = "/Account/Index?email="+ user + "&username="+user;
+    }
+
+    document.getElementById("createtodo").onclick = function() {
+
+        var task = document.getElementById("task").value;
+        //location.href = "/Todos/Create?email=" + myuser + "&task=" + task;
+
+        fetch('/ToDos/Create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                UserName: myuser,
+                usersid: 0,
+                ToDo: task
+            })
+        })
+            .then(response => {
+
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    response.text().then(text => alert("Error: " + text));
+                }
+              }) .then(data => {
+                //console.log('Parsed JSON:', data.success); // This contains the actual data
+
+                alert(data.success)
+                console.log(data.success)
+                console.log(JSON.stringify(data))
+                console.log(myuser)
+
+                if (data.success) {
+                    //alert("Account created successfully!");
+                    //location.href = "/Account/index";
+
+                        // fetch('/Account/Index', {
+                        //     method: 'POST',
+                        //     headers: {
+                        //         'Content-Type': 'application/json'
+                        //     },
+                        //     body: JSON.stringify({
+                        //         Email: email,
+                        //         Username: email,
+                        //         Password: password
+                        //     })
+                        // }).then(response => {
+
+                        //     if (response.ok) {
+
+                        location.href = "/Account/Index?email="+ myuser + "&username="+myuser;
+
+                        //     } else {
+                        //         response.text().then(text => alert("Error: " + text));
+                        //     }
+                        // });
+                       // location.href = "/Account/Index?email="+ email + "&username="+email;
+                    //Post user and retain user
+                } else {
+                    if (data.error) {
+                         console.error('Wow yoh');
+                        alert("Error: " + data.error);
+                    }
+                }
+            })
+            .catch(error => {
+                 console.error('Wow yoh');
+                console.error('Error:', error);
+                alert("An error occurred while loging into the account.");
+            });
+    }
+
+</script> -->
+<!-- In ToDo -->
+<script src="./js/index.js"></script>

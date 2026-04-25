@@ -1,0 +1,430 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-ToDo-95e891d8-0772-4057-b6f1-f4a2beb0c566</UserSecretsId>
+  </PropertyGroup>
+
+
+	<PropertyGroup>
+		<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+	</PropertyGroup>
+	
+  <ItemGroup>
+    <Compile Remove="Data\wwwroot\**" />
+    <Content Remove="Data\wwwroot\**" />
+    <EmbeddedResource Remove="Data\wwwroot\**" />
+    <None Remove="Data\wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Account\login.js" />
+    <Content Remove="wwwroot\ToDos\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\ToDos\css\style.css" />
+    <Content Remove="wwwroot\ToDos\img\about.jpg" />
+    <Content Remove="wwwroot\ToDos\img\carousel-1.jpg" />
+    <Content Remove="wwwroot\ToDos\img\carousel-2.jpg" />
+    <Content Remove="wwwroot\ToDos\img\carousel-3.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-1.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-2.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-3.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-4.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-5.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-6.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-7.jpg" />
+    <Content Remove="wwwroot\ToDos\img\service-8.jpg" />
+    <Content Remove="wwwroot\ToDos\img\team-1.jpg" />
+    <Content Remove="wwwroot\ToDos\img\team-2.jpg" />
+    <Content Remove="wwwroot\ToDos\img\team-3.jpg" />
+    <Content Remove="wwwroot\ToDos\img\team-4.jpg" />
+    <Content Remove="wwwroot\ToDos\img\testimonial-1.jpg" />
+    <Content Remove="wwwroot\ToDos\img\testimonial-2.jpg" />
+    <Content Remove="wwwroot\ToDos\img\testimonial-3.jpg" />
+    <Content Remove="wwwroot\ToDos\img\testimonial-4.jpg" />
+    <Content Remove="wwwroot\ToDos\js\main.js" />
+    <Content Remove="wwwroot\ToDos\lib\animate\animate.css" />
+    <Content Remove="wwwroot\ToDos\lib\animate\animate.min.css" />
+    <Content Remove="wwwroot\ToDos\lib\counterup\counterup.min.js" />
+    <Content Remove="wwwroot\ToDos\lib\easing\easing.js" />
+    <Content Remove="wwwroot\ToDos\lib\easing\easing.min.js" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\LICENSE" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\owl.carousel.js" />
+    <Content Remove="wwwroot\ToDos\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Remove="wwwroot\ToDos\lib\waypoints\links.php" />
+    <Content Remove="wwwroot\ToDos\lib\waypoints\waypoints.min.js" />
+    <Content Remove="wwwroot\ToDos\lib\wow\wow.js" />
+    <Content Remove="wwwroot\ToDos\lib\wow\wow.min.js" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-grid.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\bootstrap.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-check.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-control.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-range.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-select.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-text.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_input-group.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_labels.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\forms\_validation.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_position.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_ratio.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_alert.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_buttons.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_caret.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_container.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_forms.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_gradients.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_grid.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_image.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_list-group.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_lists.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_pagination.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_resize.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_transition.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_utilities.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\utilities\_api.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\vendor\_rfs.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_accordion.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_alert.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_badge.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_breadcrumb.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_button-group.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_buttons.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_card.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_carousel.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_close.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_containers.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_dropdown.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_forms.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_functions.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_grid.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_helpers.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_images.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_list-group.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_mixins.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_modal.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_nav.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_navbar.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_offcanvas.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_pagination.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_popover.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_progress.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_reboot.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_root.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_spinners.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_tables.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_toasts.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_tooltip.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_transitions.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_type.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_utilities.scss" />
+    <Content Remove="wwwroot\ToDos\scss\bootstrap\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Account\js\login.js" />
+    <None Include="wwwroot\ToDos\css\bootstrap.min.css" />
+    <None Include="wwwroot\ToDos\css\style.css" />
+    <None Include="wwwroot\ToDos\img\about.jpg" />
+    <None Include="wwwroot\ToDos\img\carousel-1.jpg" />
+    <None Include="wwwroot\ToDos\img\carousel-2.jpg" />
+    <None Include="wwwroot\ToDos\img\carousel-3.jpg" />
+    <None Include="wwwroot\ToDos\img\service-1.jpg" />
+    <None Include="wwwroot\ToDos\img\service-2.jpg" />
+    <None Include="wwwroot\ToDos\img\service-3.jpg" />
+    <None Include="wwwroot\ToDos\img\service-4.jpg" />
+    <None Include="wwwroot\ToDos\img\service-5.jpg" />
+    <None Include="wwwroot\ToDos\img\service-6.jpg" />
+    <None Include="wwwroot\ToDos\img\service-7.jpg" />
+    <None Include="wwwroot\ToDos\img\service-8.jpg" />
+    <None Include="wwwroot\ToDos\img\team-1.jpg" />
+    <None Include="wwwroot\ToDos\img\team-2.jpg" />
+    <None Include="wwwroot\ToDos\img\team-3.jpg" />
+    <None Include="wwwroot\ToDos\img\team-4.jpg" />
+    <None Include="wwwroot\ToDos\img\testimonial-1.jpg" />
+    <None Include="wwwroot\ToDos\img\testimonial-2.jpg" />
+    <None Include="wwwroot\ToDos\img\testimonial-3.jpg" />
+    <None Include="wwwroot\ToDos\img\testimonial-4.jpg" />
+    <None Include="wwwroot\ToDos\js\main.js" />
+    <None Include="wwwroot\ToDos\lib\animate\animate.css" />
+    <None Include="wwwroot\ToDos\lib\animate\animate.min.css" />
+    <None Include="wwwroot\ToDos\lib\counterup\counterup.min.js" />
+    <None Include="wwwroot\ToDos\lib\easing\easing.js" />
+    <None Include="wwwroot\ToDos\lib\easing\easing.min.js" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\ajax-loader.gif" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.carousel.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.default.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.green.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\assets\owl.video.play.png" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\LICENSE" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\owl.carousel.js" />
+    <None Include="wwwroot\ToDos\lib\owlcarousel\owl.carousel.min.js" />
+    <None Include="wwwroot\ToDos\lib\waypoints\links.php" />
+    <None Include="wwwroot\ToDos\lib\waypoints\waypoints.min.js" />
+    <None Include="wwwroot\ToDos\lib\wow\wow.js" />
+    <None Include="wwwroot\ToDos\lib\wow\wow.min.js" />
+    <None Include="wwwroot\ToDos\scss\bootstrap.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-grid.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-reboot.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\bootstrap-utilities.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\bootstrap.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_floating-labels.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-check.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-control.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-range.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-select.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_form-text.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_input-group.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_labels.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\forms\_validation.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_clearfix.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_colored-links.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_position.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_ratio.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_stretched-link.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_text-truncation.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_alert.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_border-radius.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_caret.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_clearfix.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_color-scheme.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_container.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_deprecate.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_forms.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_gradients.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_grid.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_image.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_list-group.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_lists.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_pagination.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_reset-text.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_resize.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_table-variants.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_transition.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_utilities.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\utilities\_api.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\vendor\_rfs.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_accordion.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_alert.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_badge.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_breadcrumb.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_button-group.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_buttons.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_card.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_carousel.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_close.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_containers.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_dropdown.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_forms.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_functions.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_grid.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_helpers.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_images.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_list-group.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_mixins.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_modal.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_nav.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_navbar.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_offcanvas.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_pagination.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_popover.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_progress.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_reboot.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_root.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_spinners.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_tables.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_toasts.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_tooltip.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_transitions.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_type.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_utilities.scss" />
+    <None Include="wwwroot\ToDos\scss\bootstrap\scss\_variables.scss" />
+    <None Include="wwwroot\Account\css\bootstrap.min.css" />
+    <None Include="wwwroot\Account\css\style.css" />
+    <None Include="wwwroot\Account\img\about.jpg" />
+    <None Include="wwwroot\Account\img\carousel-1.jpg" />
+    <None Include="wwwroot\Account\img\carousel-2.jpg" />
+    <None Include="wwwroot\Account\img\carousel-3.jpg" />
+    <None Include="wwwroot\Account\img\service-1.jpg" />
+    <None Include="wwwroot\Account\img\service-2.jpg" />
+    <None Include="wwwroot\Account\img\service-3.jpg" />
+    <None Include="wwwroot\Account\img\service-4.jpg" />
+    <None Include="wwwroot\Account\img\service-5.jpg" />
+    <None Include="wwwroot\Account\img\service-6.jpg" />
+    <None Include="wwwroot\Account\img\service-7.jpg" />
+    <None Include="wwwroot\Account\img\service-8.jpg" />
+    <None Include="wwwroot\Account\img\team-1.jpg" />
+    <None Include="wwwroot\Account\img\team-2.jpg" />
+    <None Include="wwwroot\Account\img\team-3.jpg" />
+    <None Include="wwwroot\Account\img\team-4.jpg" />
+    <None Include="wwwroot\Account\img\testimonial-1.jpg" />
+    <None Include="wwwroot\Account\img\testimonial-2.jpg" />
+    <None Include="wwwroot\Account\img\testimonial-3.jpg" />
+    <None Include="wwwroot\Account\img\testimonial-4.jpg" />
+    <None Include="wwwroot\Account\js\main.js" />
+    <None Include="wwwroot\Account\lib\animate\animate.css" />
+    <None Include="wwwroot\Account\lib\animate\animate.min.css" />
+    <None Include="wwwroot\Account\lib\counterup\counterup.min.js" />
+    <None Include="wwwroot\Account\lib\easing\easing.js" />
+    <None Include="wwwroot\Account\lib\easing\easing.min.js" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\ajax-loader.gif" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.carousel.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.theme.default.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.theme.green.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <None Include="wwwroot\Account\lib\owlcarousel\assets\owl.video.play.png" />
+    <None Include="wwwroot\Account\lib\owlcarousel\LICENSE" />
+    <None Include="wwwroot\Account\lib\owlcarousel\owl.carousel.js" />
+    <None Include="wwwroot\Account\lib\owlcarousel\owl.carousel.min.js" />
+    <None Include="wwwroot\Account\lib\waypoints\links.php" />
+    <None Include="wwwroot\Account\lib\waypoints\waypoints.min.js" />
+    <None Include="wwwroot\Account\lib\wow\wow.js" />
+    <None Include="wwwroot\Account\lib\wow\wow.min.js" />
+    <None Include="wwwroot\Account\scss\bootstrap.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\bootstrap-grid.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\bootstrap-reboot.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\bootstrap-utilities.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\bootstrap.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_floating-labels.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_form-check.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_form-control.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_form-range.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_form-select.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_form-text.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_input-group.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_labels.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\forms\_validation.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_clearfix.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_colored-links.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_position.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_ratio.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_stretched-link.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_text-truncation.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_alert.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_border-radius.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_caret.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_clearfix.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_color-scheme.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_container.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_deprecate.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_forms.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_gradients.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_grid.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_image.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_list-group.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_lists.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_pagination.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_reset-text.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_resize.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_table-variants.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_transition.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_utilities.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\utilities\_api.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\vendor\_rfs.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_accordion.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_alert.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_badge.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_breadcrumb.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_button-group.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_buttons.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_card.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_carousel.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_close.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_containers.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_dropdown.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_forms.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_functions.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_grid.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_helpers.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_images.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_list-group.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_mixins.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_modal.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_nav.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_navbar.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_offcanvas.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_pagination.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_popover.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_progress.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_reboot.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_root.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_spinners.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_tables.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_toasts.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_tooltip.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_transitions.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_type.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_utilities.scss" />
+    <None Include="wwwroot\Account\scss\bootstrap\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Messages.Database\Messages.Database.csproj" />
+    <ProjectReference Include="..\Messages.Shared.DTO\Messages.Shared.DTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

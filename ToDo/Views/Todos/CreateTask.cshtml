@@ -1,0 +1,108 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ToDo.Models.ListToDosResult;
+
+<body onload="setUserName('@Model.GetUserRequest.Email')">
+
+    <p class="card-text" style="color:red" id="error">@Model.ListTodosResult.First().Error</p>
+
+    <div class="mb-3 pt-4">
+        <div class="card">
+            <div class="card-header">
+                <h4>Task</h4>
+            </div>
+            <div class="card-body pb-1">
+                <p class="card-text">Please create a task.</p>
+                <textarea class="form-control pb-2" id="task" rows="1" cols="2"></textarea>
+                <br />
+                <a href="#" class="btn btn-secondary">Go Back</a>
+                <a id="createtodo" class="btn btn-primary">Create</a>
+            </div>
+        </div>
+    </div 
+
+</body>
+
+<script>
+    var myuser = "";
+
+    function setUserName(user) {
+        alert(user);
+        document.getElementById("user").innerHTML = user;
+        myuser = user;
+       // alert(document.getElementById("user").innerHTML);
+       //location.href = "/Account/Index?email="+ user + "&username="+user;
+    }
+
+    document.getElementById("createtodo").onclick = function() {
+        
+        var task = document.getElementById("task").value;        
+        //location.href = "/Todos/Create?email=" + myuser + "&task=" + task;
+
+        fetch('/ToDos/Create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                UserName: myuser,
+                usersid: 0,
+                ToDo: task
+            })
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    response.text().then(text => alert("Error: " + text));
+                }
+              }) .then(data => {
+                //console.log('Parsed JSON:', data.success); // This contains the actual data
+                console.log('Parsed JSON:' + JSON.stringify(data.GetUserRequest)); // This contains the actual data
+                console.log(JSON.stringify(data))
+                if (data.GetUserRequest.email) {
+                    //alert("Account created successfully!");
+                    //location.href = "/Account/index";
+
+                        // fetch('/Account/Index', {
+                        //     method: 'POST',
+                        //     headers: {
+                        //         'Content-Type': 'application/json'
+                        //     },
+                        //     body: JSON.stringify({
+                        //         Email: email,
+                        //         Username: email,
+                        //         Password: password
+                        //     })
+                        // }).then(response => {
+
+                        //     if (response.ok) {
+
+                        //        location.href = "/Account/Index?email="+ email + "&username="+email;
+
+                        //     } else {
+                        //         response.text().then(text => alert("Error: " + text));
+                        //     }
+                        // });
+                       // location.href = "/Account/Index?email="+ email + "&username="+email;
+                    //Post user and retain user
+                } else {
+                    if (data.error) {
+                        alert("Error: " + data.error);
+                    }
+                }
+            })
+            .catch(error => {
+                //alert("after task");
+                //location.href=""
+                console.error('Error:', error);
+                console.error('Wow yoh');
+                alert("An error occurred while loging into the account.");
+            });
+    }
+
+</script>

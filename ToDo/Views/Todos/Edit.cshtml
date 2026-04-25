@@ -1,0 +1,134 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ToDo.Models.ListToDosResult;
+
+<body onload="setUserName('@Model.GetUserRequest.Email')">
+
+    <p class="card-text" style="color:red" id="error"></p>
+
+    <!--Create a task-->
+    <div class="card pb-4">
+        <div class="card-header">
+            <center>Edit the Task</center>
+        </div>
+        <div class="row pt-4">
+            <div class="col-md-12">
+                <center>
+                    <p class="card-text"></p>
+                    <label for="title">Task title:</label><br>
+                    <input type="text" id="tasktitle" value="@Model.EditUserHelperDto.ToDoTitle" /><br />
+                    <label for="title">Task:</label><br>
+                    <textarea id="task" cols="120" rows="5">@Model.EditUserHelperDto.ToDo</textarea><br />
+                    <div class="row pt-4">
+                        <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                        <div class="col-md-4 pb-4 pl-3 pr-3">
+                            <a onclick="saveChangesEdit('@Model.GetUserRequest.Email', document.getElementById('task').value, document.getElementById('tasktitle').value, @Model.EditUserHelperDto.ToDoID, '@Model.GetUserRequest.Password', @Model.EditUserHelperDto.UserID)" class="btn btn-primary">Save</a>
+                            <a onclick="goBackToMain('@Model.GetUserRequest.Email', '@Model.GetUserRequest.Password' , '@Model.EditUserHelperDto.UserID' )" class="btn btn-secondary">Go Back</a>
+                        </div>
+                        <div class="col-md-4 pb-4 pl-3 pr-3"></div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div> 
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--Create a task-->
+
+</body>
+
+<!--
+    <script>
+    var myuser = "";
+
+    function setUserName(user) {
+        alert(user);
+        document.getElementById("user").innerHTML = user;
+        myuser = user;
+       // alert(document.getElementById("user").innerHTML);
+       //location.href = "/Account/Index?email="+ user + "&username="+user;
+    }
+
+    document.getElementById("createtodo").onclick = function() {
+
+        var task = document.getElementById("task").value;
+        //location.href = "/Todos/Create?email=" + myuser + "&task=" + task;
+
+        fetch('/ToDos/Create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                UserName: myuser,
+                usersid: 0,
+                ToDo: task
+            })
+        })
+            .then(response => {
+
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    response.text().then(text => alert("Error: " + text));
+                }
+              }) .then(data => {
+                //console.log('Parsed JSON:', data.success); // This contains the actual data
+
+                alert(data.success)
+                console.log(data.success)
+                console.log(JSON.stringify(data))
+                console.log(myuser)
+
+                if (data.success) {
+                    //alert("Account created successfully!");
+                    //location.href = "/Account/index";
+
+                        // fetch('/Account/Index', {
+                        //     method: 'POST',
+                        //     headers: {
+                        //         'Content-Type': 'application/json'
+                        //     },
+                        //     body: JSON.stringify({
+                        //         Email: email,
+                        //         Username: email,
+                        //         Password: password
+                        //     })
+                        // }).then(response => {
+
+                        //     if (response.ok) {
+
+                        location.href = "/Account/Index?email="+ myuser + "&username="+myuser;
+
+                        //     } else {
+                        //         response.text().then(text => alert("Error: " + text));
+                        //     }
+                        // });
+                       // location.href = "/Account/Index?email="+ email + "&username="+email;
+                    //Post user and retain user
+                } else {
+                    if (data.error) {
+                         console.error('Wow yoh');
+                        alert("Error: " + data.error);
+                    }
+                }
+            })
+            .catch(error => {
+                 console.error('Wow yoh');
+                console.error('Error:', error);
+                alert("An error occurred while loging into the account.");
+            });
+    }
+
+</script> -->
+
+
+<!-- In ToDo -->
+<script src="./js/index.js"></script>

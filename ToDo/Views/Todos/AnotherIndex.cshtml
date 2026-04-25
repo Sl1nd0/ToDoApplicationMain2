@@ -1,0 +1,121 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    var newuser = @Model.GetUserRequest.Email;
+}
+
+@model ToDo.Models.ListToDosResult;
+@newuser
+@* Indexed
+
+@Model.UserName
+ *@
+
+<head>
+    <meta charset="utf-8">
+    <title>ToDo</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body onload="setUser('@Model.GetUserRequest.Email')">
+
+    <input type="hidden" id="myuser" value="" />
+
+    @if (@Model.ListTodosResult.Count() == 0) //NOW
+    {
+        <div class="text-center">
+            <div class="jumbotron shadow">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="~/css/images/diamonds.svg" width="100%" height="100%" />
+                    </div>
+                    <div class="col-md-10">
+                        <h1 class="display-4" style="color:black">
+                            <b>Welcome to the ToDo application</b>
+                            <b>please create a task</b>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <center><p class="card-text">.</p></center>
+                        <center>
+                            <a href="#" class="btn btn-secondary">Go Back</a>
+                            <a id="createtask" class="btn btn-primary">Create</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+    }
+    else
+    {
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example .</p>
+                    <a href="#" class="btn btn-primary">Go Back</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="mb-3">
+        <br />
+        <br />
+    </div>
+</body>
+
+<script>
+    var myuser = "";
+    function setUser(user) {
+        //alert(user);
+        myuser = user;
+        document.getElementById("myuser").value = user;
+        //alert(document.getElementById("myuser").value);
+    }
+
+    document.getElementById("createtask").onclick = function() {
+       location.href="/Todos/Create?email="+ myuser+ "&username=" + myuser;
+    }
+</script>

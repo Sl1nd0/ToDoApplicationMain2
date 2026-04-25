@@ -1,0 +1,57 @@
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Domain.deps.json
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Domain.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.2DF13709.Up2Date
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\refint\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\Messages.Domain.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Domain\obj\Release\net6.0\ref\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Domain.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Domain.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.2DF13709.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\refint\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\Messages.Domain.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Domain\obj\Release\net6.0\ref\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Domain.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Domain.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.2DF13709.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\refint\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\Messages.Domain.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Domain\obj\Release\net6.0\ref\Messages.Domain.dll

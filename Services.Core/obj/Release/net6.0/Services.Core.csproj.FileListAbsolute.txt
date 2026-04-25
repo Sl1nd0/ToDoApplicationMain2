@@ -1,0 +1,42 @@
+C:\Users\ssank\source\repos\ToDo\Services.Core\bin\Release\net6.0\Services.Core.deps.json
+C:\Users\ssank\source\repos\ToDo\Services.Core\bin\Release\net6.0\Services.Core.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo\Services.Core\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Services.Core\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\refint\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\Services.Core.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo\Services.Core\obj\Release\net6.0\ref\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\bin\Release\net6.0\Services.Core.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\bin\Release\net6.0\Services.Core.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\refint\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\Services.Core.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Services.Core\obj\Release\net6.0\ref\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\bin\Release\net6.0\Services.Core.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\bin\Release\net6.0\Services.Core.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\refint\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\Services.Core.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Services.Core\obj\Release\net6.0\ref\Services.Core.dll

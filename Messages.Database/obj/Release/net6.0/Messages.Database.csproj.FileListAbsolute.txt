@@ -1,0 +1,66 @@
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\appsettings.json
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Database.deps.json
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Database.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Database\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.C86C9E60.Up2Date
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\refint\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\Messages.Database.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Database\obj\Release\net6.0\ref\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\appsettings.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Database.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Database.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.C86C9E60.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\refint\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\Messages.Database.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Database\obj\Release\net6.0\ref\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\appsettings.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Database.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Database.runtimeconfig.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Domain.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Domain.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.C86C9E60.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\refint\Messages.Database.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\Messages.Database.genruntimeconfig.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Database\obj\Release\net6.0\ref\Messages.Database.dll

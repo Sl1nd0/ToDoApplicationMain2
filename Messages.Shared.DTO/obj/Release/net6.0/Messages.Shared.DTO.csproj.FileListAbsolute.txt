@@ -1,0 +1,45 @@
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.deps.json
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.518723AD.Up2Date
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\refint\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo\Messages.Shared.DTO\obj\Release\net6.0\ref\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.518723AD.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\refint\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup\Messages.Shared.DTO\obj\Release\net6.0\ref\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.deps.json
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\bin\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\bin\Release\net6.0\Services.Core.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.AssemblyReference.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfoInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.AssemblyInfo.cs
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.518723AD.Up2Date
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\refint\Messages.Shared.DTO.dll
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\Messages.Shared.DTO.pdb
+C:\Users\ssank\source\repos\ToDo - Backup - Latest\Messages.Shared.DTO\obj\Release\net6.0\ref\Messages.Shared.DTO.dll
